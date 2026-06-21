@@ -1,0 +1,28 @@
+{
+  "agents": {
+    "sisyphus": {
+      "model": "opencode/big-pickle",
+      "fallback_models": ["opencode/nemotron-3-ultra-free"]
+    },
+    "hephaestus": {
+      "model": "opencode/nemotron-3-ultra-free",
+      "fallback_models": ["opencode/big-pickle", "opencode/deepseek-v4-flash-free"]
+    },
+    "atlas": {
+      "model": "opencode/big-pickle",
+      "fallback_models": ["opencode/nemotron-3-ultra-free", "opencode/mimo-v2.5-free"]
+    },
+    "oracle": {
+      "model": "opencode/nemotron-3-ultra-free",
+      "fallback_models": ["opencode/big-pickle"]
+    },
+    "explore": {
+      "model": "opencode/deepseek-v4-flash-free",
+      "fallback_models": ["opencode/mimo-v2.5-free"]
+    },
+    "librarian": {
+      "model": "opencode/mimo-v2.5-free",
+      "fallback_models": ["opencode/deepseek-v4-flash-free"]
+    }
+  }
+}

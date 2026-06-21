@@ -1,0 +1,22 @@
+{
+  "agents": {
+    "sisyphus": {
+      "model": "opencode/big-pickle"
+    },
+    "hephaestus": {
+      "model": "opencode/big-pickle"
+    },
+    "atlas": {
+      "model": "opencode/nemotron-3-ultra-free"
+    },
+    "oracle": {
+      "model": "opencode/big-pickle"
+    },
+    "explore": {
+      "model": "opencode/deepseek-v4-flash-free"
+    },
+    "librarian": {
+      "model": "opencode/mimo-v2.5-free"
+    }
+  }
+}

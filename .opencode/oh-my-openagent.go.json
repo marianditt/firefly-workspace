@@ -1,0 +1,22 @@
+{
+  "agents": {
+    "sisyphus": {
+      "model": "opencode-go/qwen3.7-max"
+    },
+    "hephaestus": {
+      "model": "opencode-go/deepseek-v4-pro"
+    },
+    "atlas": {
+      "model": "opencode-go/qwen3.7-plus"
+    },
+    "oracle": {
+      "model": "opencode-go/qwen3.7-max"
+    },
+    "explore": {
+      "model": "opencode-go/deepseek-v4-flash"
+    },
+    "librarian": {
+      "model": "opencode-go/qwen3.7-plus"
+    }
+  }
+}

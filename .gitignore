@@ -1,0 +1,3 @@
+firefly-monorepo/
+firefly-infra/
+!firefly-infra/AGENTS.md
