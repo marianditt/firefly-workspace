@@ -1,22 +1,24 @@
-{
-  "agents": {
-    "sisyphus": {
-      "model": "github-copilot/claude-opus-4.8"
-    },
-    "hephaestus": {
-      "model": "github-copilot/claude-sonnet-4.6"
-    },
-    "atlas": {
-      "model": "github-copilot/claude-sonnet-4.6"
-    },
-    "oracle": {
-      "model": "github-copilot/claude-opus-4.8"
-    },
-    "explore": {
-      "model": "github-copilot/gpt-5-mini"
-    },
-    "librarian": {
-      "model": "github-copilot/gemini-3.5-flash"
-    }
-  }
-}
+     {
+       "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
+       "agents": {
+         "sisyphus":    { "model": "github-copilot/claude-opus-4-6" },
+         "prometheus":  { "model": "github-copilot/gpt-5.4" },
+         "hephaestus":  { "model": "github-copilot/gpt-5.3-codex" },
+         "atlas":       { "model": "github-copilot/claude-sonnet-4-6" },
+         "oracle":      { "model": "github-copilot/gpt-5.4" },
+         "explore":     { "model": "github-copilot/grok-code-fast-1" },
+         "librarian":   { "model": "github-copilot/gemini-3-1-pro" },
+         "metis":       { "model": "github-copilot/claude-opus-4-6" },
+         "momus":       { "model": "github-copilot/gpt-5.4" }
+       },
+       "categories": {
+         "deep":              { "model": "github-copilot/gpt-5.4" },
+         "ultrabrain":        { "model": "github-copilot/claude-opus-4-6" },
+         "artistry":          { "model": "github-copilot/claude-opus-4-6" },
+         "unspecified-high":  { "model": "github-copilot/claude-sonnet-4-6" },
+         "visual-engineering":{"model": "github-copilot/gemini-3-1-pro" },
+         "quick":             { "model": "github-copilot/gpt-5.4-mini" },
+         "unspecified-low":   { "model": "github-copilot/gpt-5-mini" },
+         "writing":           { "model": "github-copilot/claude-haiku-4-5" }
+       }
+     }

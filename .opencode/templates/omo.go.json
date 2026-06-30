@@ -1,22 +1,24 @@
-{
-  "agents": {
-    "sisyphus": {
-      "model": "opencode-go/qwen3.7-max"
-    },
-    "hephaestus": {
-      "model": "opencode-go/deepseek-v4-pro"
-    },
-    "atlas": {
-      "model": "opencode-go/qwen3.7-plus"
-    },
-    "oracle": {
-      "model": "opencode-go/qwen3.7-max"
-    },
-    "explore": {
-      "model": "opencode-go/deepseek-v4-flash"
-    },
-    "librarian": {
-      "model": "opencode-go/qwen3.7-plus"
-    }
-  }
-}
+     {
+       "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
+       "agents": {
+         "sisyphus":    { "model": "opencode-go/kimi-k2.7-code" },
+         "prometheus":  { "model": "opencode-go/glm-5.2" },
+         "hephaestus":  { "model": "opencode-go/deepseek-v4-pro" },
+         "atlas":       { "model": "opencode-go/qwen3.7-plus" },
+         "oracle":      { "model": "opencode-go/glm-5.2" },
+         "explore":     { "model": "opencode-go/deepseek-v4-flash" },
+         "librarian":   { "model": "opencode-go/qwen3.7-plus" },
+         "metis":       { "model": "opencode-go/qwen3.7-max" },
+         "momus":       { "model": "opencode-go/glm-5.2" }
+       },
+       "categories": {
+         "deep":              { "model": "opencode-go/deepseek-v4-pro" },
+         "ultrabrain":        { "model": "opencode-go/glm-5.2" },
+         "artistry":          { "model": "opencode-go/glm-5.2" },
+         "unspecified-high":  { "model": "opencode-go/kimi-k2.7-code" },
+         "visual-engineering":{"model": "opencode-go/qwen3.7-max" },
+         "quick":             { "model": "opencode-go/deepseek-v4-flash" },
+         "unspecified-low":   { "model": "opencode-go/minimax-m3" },
+         "writing":           { "model": "opencode-go/qwen3.7-plus" }
+       }
+     }

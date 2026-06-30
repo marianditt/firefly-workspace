@@ -1,22 +1,24 @@
 {
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
   "agents": {
-    "sisyphus": {
-      "model": "opencode/big-pickle"
-    },
-    "hephaestus": {
-      "model": "opencode/big-pickle"
-    },
-    "atlas": {
-      "model": "opencode/nemotron-3-ultra-free"
-    },
-    "oracle": {
-      "model": "opencode/big-pickle"
-    },
-    "explore": {
-      "model": "opencode/deepseek-v4-flash-free"
-    },
-    "librarian": {
-      "model": "opencode/mimo-v2.5-free"
-    }
+    "sisyphus":    { "model": "opencode/nemotron-3-ultra-free" },
+    "prometheus":  { "model": "opencode/nemotron-3-ultra-free" },
+    "hephaestus":  { "model": "opencode/deepseek-v4-flash-free" },
+    "atlas":       { "model": "opencode/big-pickle" },
+    "oracle":      { "model": "opencode/nemotron-3-ultra-free" },
+    "explore":     { "model": "opencode/deepseek-v4-flash-free" },
+    "librarian":   { "model": "opencode/big-pickle" },
+    "metis":       { "model": "opencode/nemotron-3-ultra-free" },
+    "momus":       { "model": "opencode/nemotron-3-ultra-free" }
+  },
+  "categories": {
+    "deep":              { "model": "opencode/nemotron-3-ultra-free" },
+    "ultrabrain":        { "model": "opencode/nemotron-3-ultra-free" },
+    "artistry":          { "model": "opencode/nemotron-3-ultra-free" },
+    "unspecified-high":  { "model": "opencode/deepseek-v4-flash-free" },
+    "visual-engineering":{"model": "opencode/big-pickle" },
+    "quick":             { "model": "opencode/deepseek-v4-flash-free" },
+    "unspecified-low":   { "model": "opencode/big-pickle" },
+    "writing":           { "model": "opencode/big-pickle" }
   }
 }
